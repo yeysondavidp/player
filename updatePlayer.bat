@@ -1,6 +1,10 @@
 @echo off
-SET "REPO_PATH=C:\ruta\a\tu\repositorio"
 
-cd /d %REPO_PATH%
+set repo=C:\Users\BLAK - NAVORI\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\player
+
+cd %repo%
 git pull
-pause
+
+call %repo%&BlakLoopVideo
+
+exit
